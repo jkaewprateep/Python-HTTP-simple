@@ -76,6 +76,54 @@ print(body.decode('iso-8859-1'))
     "pending_reg_taf_fees":"0"}
 ```
 
+## Simple HTTP request-response with Curl in command line subprocess
+
+```
+import requests;
+# import curlify;
+import json;
+import subprocess;
+import shlex;
+
+url = "https://paper-api.alpaca.markets/v2/account";
+payload = "";
+target_header = ["APCA-API-KEY-ID", "APCA-API-SECRET-KEY", "accept"];
+headers = { "APCA-API-KEY-ID":"********************************", 
+    "APCA-API-SECRET-KEY":"************************************", 
+    "accept":"application/json" };
+
+r = requests.get(url, data=json.dumps(payload), headers=headers)
+r.headers = dict(['"{0}: {1}"'.format(k, v) for k, v in r.headers.items() if k in target_header]);
+req = r.request;
+
+command = "curl -X GET";
+method = req.method;
+uri = req.url;
+data = req.body;
+
+headers = ['"{0}: {1}"'.format(k, v) for k, v in req.headers.items() if k in target_header];
+headers = " -H " + " -H ".join(headers);
+command_tosend = command.format(method=method, headers=headers, data=data, uri=uri);
+command_tosend = command_tosend + headers + " " + uri;
+
+args = shlex.split(command_tosend);
+process = subprocess.Popen(args, shell=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+stdout, stderr = process.communicate();
+
+result = json.loads(stdout.decode('utf-8'));
+
+print( result );
+
+process.stdout.close();
+```
+
+## Sample response
+
+```
+{'id': 'ba451548-8ce6-4dc5-a36d-ca14ecd86c07', 'admin_configurations': {}, 'user_configurations': None,
+    'account_number': 'PA3D791JPCCL', 'status': 'ACTIVE',  ..., 'pending_reg_taf_fees': '0'}
+```
+
 ## Simple HTTP request-response with Alpaca tradeapi library
 
 ```
