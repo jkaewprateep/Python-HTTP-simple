@@ -71,5 +71,6 @@ print(body.decode('iso-8859-1'))
 ## Sample response
 
 ```
-{"id":"ba451548-8ce6-4dc5-a36d-ca14ecd86c07","admin_configurations":{},"user_configurations":null,"account_number":"PA3D791JPCCL","status":"ACTIVE","crypto_status":"ACTIVE", ... ,"pending_reg_taf_fees":"0"}
+{"id":"ba451548-8ce6-4dc5-a36d-ca14ecd86c07","admin_configurations":{},"user_configurations":null,"account_number":"PA3D791JPCCL",
+    "status":"ACTIVE","crypto_status":"ACTIVE", ... ,"pending_reg_taf_fees":"0"}
 ```
