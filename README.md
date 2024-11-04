@@ -39,6 +39,7 @@ Consume HTTP rest services with a simple method with Alpaca RESTFul services API
 🧸💬 Mapping web statics method and data communication methods can perform as simple as in the picture, they can be used for communication, mocked-up models, and requirements negotiations with application workflow. </br>
 
 🦭💬 This mocked up not only for communication at the visualization level but methods parameter requirements, steps to perform actions as in application flows, information privacy, and information confirmation process. The last time of my communication confirmation process is application with string builder and ```re``` and ```stringify`` for help user with wildcards expecting results we build application mockedup page. </br>
+</br>
 
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/jkaewprateep/Python-HTTP-simple/blob/main/42-requirements-button%20page.png"> </br>
