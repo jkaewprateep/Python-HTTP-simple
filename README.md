@@ -48,10 +48,18 @@ Consume HTTP rest services with a simple method with Alpaca RESTFul services API
 
 🐑💬 ➰ This is also helpful and can be used as a reference during user testing and scenario testing and they do not need to build of new application function mapping from zero. <br>
 
-👧💬 🎈 Users can finished their tasks on time they can help to find more testing defects and provide more comment from their expereinces.  </br>
+👧💬 🎈 Users can finish their tasks on time they can help to find more testing defects and provide more comments from their experiences.  </br>
 </br>
 
+## 🧸💬 By integration test and results - I provided 4 methods of communication with the Alpaca web services API
+* Simple HTTP request-response with Python request library - ( 1 )
+* Simple HTTP request-response with PyCurl request library  - ( 2 )
+* Simple HTTP request-response with Curl in command line subprocess  - ( 3 )
+* Simple HTTP request-response with Alpaca tradeapi library  - ( 4 )
+
 ## Simple HTTP request-response with Python request library - ( 1 )
+
+🧸💬 By using Python ```request``` library that is standard method for HTTP communication this working in many Python environment where they can manage memory and resource by Python recourse manager.  <br>
 
 ```
 import requests
@@ -76,6 +84,8 @@ else:
 
 ## Sample response
 
+🧸💬 Simple response in dataset dictionary format can be directly performed data extraction directly by the Python natural list and dictionary method. </br>
+
 ```
 <Response [200]>
 id : ba451548-8ce6-4dc5-a36d-ca14ecd86c07
@@ -90,6 +100,8 @@ options_trading_level : 2
 ```
 
 ## Simple HTTP request-response with PyCurl request library  - ( 2 )
+
+🧸💬 By using PyCurl library perform communication as Curl command line with interfaces with Python application running and manage resources by sub-process. </br>
 
 ```
 import pycurl
@@ -113,6 +125,8 @@ print(body.decode('iso-8859-1'))
 
 ## Sample response
 
+🧸💬 Working as streams is the most capable method for API capacity devices and can directly integrate with custom screen or output return. </br>
+
 ```
 {"id":"ba451548-8ce6-4dc5-a36d-ca14ecd86c07","admin_configurations":{},"user_configurations":null,
     "account_number":"PA3D791JPCCL", "status":"ACTIVE","crypto_status":"ACTIVE", ... ,
@@ -120,6 +134,8 @@ print(body.decode('iso-8859-1'))
 ```
 
 ## Simple HTTP request-response with Curl in command line subprocess  - ( 3 )
+
+🧸💬 Using Curl by an external process using a subprocess is OS resource management and application control, do not forget to close the subprocess before starting a new session. </br>
  
 ```
 import requests;
@@ -162,12 +178,16 @@ process.stdout.close();
 
 ## Sample response
 
+🧸💬 Output returns as a stream that can integrated as a custom screen monitor output system.  </br>
+
 ```
 {'id': 'ba451548-8ce6-4dc5-a36d-ca14ecd86c07', 'admin_configurations': {}, 'user_configurations': None,
     'account_number': 'PA3D791JPCCL', 'status': 'ACTIVE',  ..., 'pending_reg_taf_fees': '0'}
 ```
 
 ## Simple HTTP request-response with Alpaca tradeapi library  - ( 4 )
+
+🧸💬 By interaction library from Alpaca allowed to use API with support features and future upgrades for new function and security. </br>
 
 ```
 import alpaca_trade_api as tradeapi
@@ -186,6 +206,8 @@ print( object.get_clock() );
 ```
 
 ## Sample response
+
+🧸💬 Manage resources by application and Python resource management when standard and protocol data communication correctness is performed by Alpaca. </br>
 
 ```
 Clock({   'is_open': True,
