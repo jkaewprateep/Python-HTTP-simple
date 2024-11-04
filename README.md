@@ -16,8 +16,8 @@ import json
 
 url = "https://paper-api.alpaca.markets/v2/account";
 
-headers = { 'content-type': 'application/json', "APCA-API-KEY-ID": "PKJ0VYG7T1NJ6K4EL199",
-    "APCA-API-SECRET-KEY": "kuwqUKIpcc4gLvVUAZVPC4IJMJnkI7H0LUReQfpX", 
+headers = { 'content-type': 'application/json', "APCA-API-KEY-ID": "********************",
+    "APCA-API-SECRET-KEY": "************************************************************", 
     "Accept": "*/*", "User-Agent": "DekDee" };
 
 # response = requests.get( url, headers=headers, verify = "D:\\Backup\\certificaiton\\paper-api.alpaca.markets.pem" );
