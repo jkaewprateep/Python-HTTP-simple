@@ -75,3 +75,30 @@ print(body.decode('iso-8859-1'))
     "account_number":"PA3D791JPCCL", "status":"ACTIVE","crypto_status":"ACTIVE", ... ,
     "pending_reg_taf_fees":"0"}
 ```
+
+## Simple HTTP request-response with Alpaca tradeapi library
+
+```
+import alpaca_trade_api as tradeapi
+
+from alpaca_trade_api.common import URL
+from alpaca_trade_api.stream import Stream
+
+
+API_KEY = "*******************************************"
+API_SECRET = "****************************************"
+APCA_API_BASE_URL = "https://paper-api.alpaca.markets"
+
+object = tradeapi.REST(API_KEY, API_SECRET, APCA_API_BASE_URL, api_version="v2")
+
+print( object.get_clock() );
+```
+
+## Sample response
+
+```
+Clock({   'is_open': True,
+    'next_close': '2024-11-04T16:00:00-05:00',
+    'next_open': '2024-11-05T09:30:00-05:00',
+    'timestamp': '2024-11-04T10:46:29.017761912-05:00'})
+```
