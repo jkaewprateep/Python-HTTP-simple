@@ -13,7 +13,6 @@ Consume HTTP rest services with a simple method with Alpaca RESTFul services API
 🧸💬 To perform actions provided by library and API methods from RESTFul API and communication channels need to understand the concepts ( I also read from the website for 5 - 10 minutes before starting my program application development and the rest of the time I spent on testing and application callflows ).  [🦙alpaca]( https://app.alpaca.markets/paper/dashboard/overview ) 
 </br>
 
-
 🦤💬 The purpose and requirements because the API portal is divided by service types and authority, individuals should perform individual actions when overall information should be provided information by specific criteria. There is filtering by request, and category types and limited for page-like navigation. </br>
 
 💃( 👩‍🏫 )💬 Remote communication performance of the server should limit the number of record returns or use page numbers because of alpaca RESTFul API services response individually asynchronous by each invocation limited number of row returns prevent of bandwidths communication and loading time for limited CPU in delay process. </br>
@@ -26,6 +25,9 @@ Consume HTTP rest services with a simple method with Alpaca RESTFul services API
 </p>
 
 🐐💬 Information as the graph is important in observation and translation because it translates information signals into a format or domain we easy to understand and we do not need to translate it back into the original format. Let's say aggregated data is lossless information process level 1 and graph plotting is losses information process level 2 where they can drill down to see the information from original records and their format but they cannot turn all information into ready format except by ```export``` function provided. </br>
+
+🦁💬 Most printed-out reports are exportable because selecting parameters input by users, awareness of information, and highlighted and visualization performed on templates or users interactions that are on their user views and ```scoped of report generators``` .  </br>
+</br>
 
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/jkaewprateep/Python-HTTP-simple/blob/main/41-requirements-top%20page.png"> </br>
