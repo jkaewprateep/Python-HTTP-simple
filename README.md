@@ -8,7 +8,7 @@ Consume HTTP rest services with a simple method with Alpaca RESTFul services API
     <b> Learning Alpaca webservices API and Python codes </b> </br>
 </p>
 
-## Simple HTTP request-response with Python request library
+## Simple HTTP request-response with Python request library - ( 1 )
 
 ```
 import requests
@@ -46,7 +46,7 @@ options_trading_level : 2
 ...
 ```
 
-## Simple HTTP request-response with PyCurl request library
+## Simple HTTP request-response with PyCurl request library  - ( 2 )
 
 ```
 import pycurl
@@ -76,8 +76,8 @@ print(body.decode('iso-8859-1'))
     "pending_reg_taf_fees":"0"}
 ```
 
-## Simple HTTP request-response with Curl in command line subprocess
-
+## Simple HTTP request-response with Curl in command line subprocess  - ( 3 )
+ 
 ```
 import requests;
 # import curlify;
@@ -124,7 +124,7 @@ process.stdout.close();
     'account_number': 'PA3D791JPCCL', 'status': 'ACTIVE',  ..., 'pending_reg_taf_fees': '0'}
 ```
 
-## Simple HTTP request-response with Alpaca tradeapi library
+## Simple HTTP request-response with Alpaca tradeapi library  - ( 4 )
 
 ```
 import alpaca_trade_api as tradeapi
