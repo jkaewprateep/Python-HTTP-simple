@@ -10,7 +10,14 @@ Consume HTTP rest services with a simple method with Alpaca RESTFul services API
 
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/jkaewprateep/Python-HTTP-simple/blob/main/Sample%20report%20equality%20-%20profit%20loss%20interval%201D%20base_value%201000000.png"> </br>
-    <b> Learning Alpaca webservices API and Python codes </b> </br>
+    <b> Learning Alpaca webservices API and Python codes - portfolio history </b> </br>
+</p>
+
+<p align="center" width="100%">
+    <img width="80%" src="https://github.com/jkaewprateep/Python-HTTP-simple/blob/main/41-requirements-top%20page.png"> </br>
+    <b> Learning Alpaca webservices API and Python codes - services method and individual trade function </b> </br>
+    <img width="80%" src="https://github.com/jkaewprateep/Python-HTTP-simple/blob/main/42-requirements-button%20page.png"> </br>
+    <b> Learning Alpaca webservices API and Python codes - services method and individual trade function </b> </br>
 </p>
 
 ## Simple HTTP request-response with Python request library - ( 1 )
