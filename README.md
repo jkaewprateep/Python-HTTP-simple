@@ -30,3 +30,18 @@ if(response.ok):
 else:
     response.raise_for_status()
 ```
+
+## Sample response
+
+```
+<Response [200]>
+id : ba451548-8ce6-4dc5-a36d-ca14ecd86c07
+admin_configurations : {}
+user_configurations : None
+account_number : PA3D791JPCCL
+status : ACTIVE
+crypto_status : ACTIVE
+options_approved_level : 2
+options_trading_level : 2
+...
+```
