@@ -18,12 +18,14 @@ Consume HTTP rest services with a simple method with Alpaca RESTFul services API
 
 💃( 👩‍🏫 )💬 Remote communication performance of the server should limit the number of record returns or use page numbers because of alpaca RESTFul API services response individually asynchronous by each invocation limited number of row returns prevent of bandwidths communication and loading time for limited CPU in delay process. </br>
 
-🐯💬 Culture-INFO size of packages does not significantly affect network performance but they are application level where capture network header and replace with required parameter input can transfer or forward the message for load balance architecture. The sizes of message headers do not always affect the performance but they have enough information and tracking back investigation possible. ( This is not the same story with headless communication in database because they had client and established communication they can request for information any time ). </br>
+🐯💬 Culture-INFO size of packages does not significantly affect network performance but they are application level where capture network header and replace with required parameter input can transfer or forward the message for load balance architecture. The sizes of message headers do not always affect the performance but they have enough information and tracking back investigation possible. ( This is not the same story with headless communication in the database because they had clients and established communication they can request information any time ). </br>
 
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/jkaewprateep/Python-HTTP-simple/blob/main/Sample%20report%20equality%20-%20profit%20loss%20interval%201D%20base_value%201000000.png"> </br>
     <b> Learning Alpaca webservices API and Python codes - portfolio history </b> </br>
 </p>
+
+🐐💬 Information as the graph is important in observation and translation because it translates information signals into a format or domain we easy to understand and we do not need to translate it back into the original format. Let's say aggregated data is lossless information process level 1 and graph plotting is losses information process level 2 where they can drill down to see the information from original records and their format but they cannot turn all information into ready format except by ```export``` function provided. </br>
 
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/jkaewprateep/Python-HTTP-simple/blob/main/41-requirements-top%20page.png"> </br>
