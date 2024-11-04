@@ -7,10 +7,17 @@ Consume HTTP rest services with a simple method with Alpaca RESTFul services API
     <img width="25%" src="https://github.com/jkaewprateep/Python-HTTP-simple/blob/main/kid_29.jpg"> </br>
     <b> Learning Alpaca webservices API and Python codes </b> </br>
 </p>
+</br>
+</br>
 
-🧸💬 To perform actions provided by library and API methods from RESTFul API and communication channels need to understand the concepts ( I also read from the website for 5 - 10 minutes before starting my program application development and the rest of the time I spent on testing and application callflows ). [🦙alpaca]( https://app.alpaca.markets/paper/dashboard/overview ) </br>
+🧸💬 To perform actions provided by library and API methods from RESTFul API and communication channels need to understand the concepts ( I also read from the website for 5 - 10 minutes before starting my program application development and the rest of the time I spent on testing and application callflows ).  [🦙alpaca]( https://app.alpaca.markets/paper/dashboard/overview ) 
+</br>
+
+
 🦤💬 The purpose and requirements because the API portal is divided by service types and authority, individuals should perform individual actions when overall information should be provided information by specific criteria. There is filtering by request, and category types and limited for page-like navigation. </br>
+
 💃( 👩‍🏫 )💬 Remote communication performance of the server should limit the number of record returns or use page numbers because of alpaca RESTFul API services response individually asynchronous by each invocation limited number of row returns prevent of bandwidths communication and loading time for limited CPU in delay process. </br>
+
 🐯💬 Culture-INFO size of packages does not significantly affect network performance but they are application level where capture network header and replace with required parameter input can transfer or forward the message for load balance architecture. The sizes of message headers do not always affect the performance but they have enough information and tracking back investigation possible. ( This is not the same story with headless communication in database because they had client and established communication they can request for information any time ). </br>
 
 <p align="center" width="100%">
