@@ -8,6 +8,8 @@ Consume HTTP rest services with a simple method with Alpaca RESTFul services API
     <b> Learning Alpaca webservices API and Python codes </b> </br>
 </p>
 
+🧸💬 To perform actions provided by library and API methods from RESTFul API and communication channels need to understand the concepts ( I also read from the website for 5 - 10 minutes before starting my program application development and the rest of the time I spent on testing and application callflows ). [🦙alpaca]( https://app.alpaca.markets/paper/dashboard/overview )
+
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/jkaewprateep/Python-HTTP-simple/blob/main/Sample%20report%20equality%20-%20profit%20loss%20interval%201D%20base_value%201000000.png"> </br>
     <b> Learning Alpaca webservices API and Python codes - portfolio history </b> </br>
