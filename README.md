@@ -23,6 +23,8 @@ Consume HTTP rest services with a simple method with Alpaca RESTFul services API
     <img width="80%" src="https://github.com/jkaewprateep/Python-HTTP-simple/blob/main/Sample%20report%20equality%20-%20profit%20loss%20interval%201D%20base_value%201000000.png"> </br>
     <b> Learning Alpaca webservices API and Python codes - portfolio history </b> </br>
 </p>
+</br>
+</br>
 
 🐐💬 Information as the graph is important in observation and translation because it translates information signals into a format or domain we easy to understand and we do not need to translate it back into the original format. Let's say aggregated data is lossless information process level 1 and graph plotting is losses information process level 2 where they can drill down to see the information from original records and their format but they cannot turn all information into ready format except by ```export``` function provided. </br>
 
@@ -32,6 +34,11 @@ Consume HTTP rest services with a simple method with Alpaca RESTFul services API
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/jkaewprateep/Python-HTTP-simple/blob/main/41-requirements-top%20page.png"> </br>
     <b> Learning Alpaca webservices API and Python codes - services method and individual trade function </b> </br>
+</p>
+
+🧸💬 Mapping web statics method and data communication methods can perform as simple as in the picture, they can use for communication, mocked up model and requirements negotiations with application workflow. </br>
+
+<p align="center" width="100%">
     <img width="80%" src="https://github.com/jkaewprateep/Python-HTTP-simple/blob/main/42-requirements-button%20page.png"> </br>
     <b> Learning Alpaca webservices API and Python codes - services method and individual trade function </b> </br>
 </p>
