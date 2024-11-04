@@ -10,6 +10,7 @@ Consume HTTP rest services with a simple method with Alpaca RESTFul services API
 
 🧸💬 To perform actions provided by library and API methods from RESTFul API and communication channels need to understand the concepts ( I also read from the website for 5 - 10 minutes before starting my program application development and the rest of the time I spent on testing and application callflows ). [🦙alpaca]( https://app.alpaca.markets/paper/dashboard/overview ) </br>
 🦤💬 The purpose and requirements because the API portal is divided by service types and authority, individuals should perform individual actions when overall information should be provided information by specific criteria. There is filtering by request, and category types and limited for page-like navigation. </br>
+💃( 👩‍🏫 )💬 Remote communication performance of the server should limit the number of record returns or use page numbers because of alpaca RESTFul API services response individually asynchronous by each invocation limited number of row returns prevent of bandwidths communication and loading time for limited CPU in delay process. </br>
 
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/jkaewprateep/Python-HTTP-simple/blob/main/Sample%20report%20equality%20-%20profit%20loss%20interval%201D%20base_value%201000000.png"> </br>
