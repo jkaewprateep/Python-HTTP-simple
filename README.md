@@ -136,7 +136,9 @@ print(body.decode('iso-8859-1'))
 ## Simple HTTP request-response with Curl in command line subprocess  - ( 3 )
 
 🧸💬 Using Curl by an external process using a subprocess is OS resource management and application control, do not forget to close the subprocess before starting a new session. </br>
- 
+
+🐑💬 ➰ It is possible to use Curify but will have the same answer and you need to update the header twice because Shelx removed it then this method is simple and easy to follow. </br>
+
 ```
 import requests;
 # import curlify;
