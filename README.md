@@ -162,3 +162,11 @@ Clock({   'is_open': True,
     'next_open': '2024-11-05T09:30:00-05:00',
     'timestamp': '2024-11-04T10:46:29.017761912-05:00'})
 ```
+
+---
+
+<p align="center" width="100%">
+    <img width="30%" src="https://github.com/jkaewprateep/advanced_mysql_topics_notes/blob/main/custom_dataset.png">
+    <img width="30%" src="https://github.com/jkaewprateep/advanced_mysql_topics_notes/blob/main/custom_dataset_2.png"> </br>
+    <b> 🥺💬 รับจ้างเขียน functions </b> </br>
+</p>
