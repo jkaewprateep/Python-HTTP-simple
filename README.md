@@ -45,3 +45,31 @@ options_approved_level : 2
 options_trading_level : 2
 ...
 ```
+
+## Simple HTTP request-response with PyCurl request library
+
+```
+import pycurl
+import certifi
+from io import BytesIO
+
+buffer = BytesIO()
+c = pycurl.Curl()
+c.setopt(c.URL, 'https://paper-api.alpaca.markets/v2/account')
+c.setopt(pycurl.HTTPHEADER, ["APCA-API-KEY-ID: ************************",
+        "APCA-API-SECRET-KEY: *****************************************", "User-Agent: curl/8.7.1", "Accept: */*",
+        "Host: paper-api.alpaca.markets"]);
+c.setopt(c.WRITEDATA, buffer)
+c.setopt(c.CAINFO, certifi.where())
+c.perform()
+c.close()
+
+body = buffer.getvalue()
+print(body.decode('iso-8859-1'))
+```
+
+## Sample response
+
+```
+{"id":"ba451548-8ce6-4dc5-a36d-ca14ecd86c07","admin_configurations":{},"user_configurations":null,"account_number":"PA3D791JPCCL","status":"ACTIVE","crypto_status":"ACTIVE", ... ,"pending_reg_taf_fees":"0"}
+```
